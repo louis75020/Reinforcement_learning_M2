@@ -19,3 +19,13 @@ We are supposed to help a robot to walk on a grid with traps and rewards. Unfort
 
 - Value update (We trynna maximize the rewards, weighted by the iteration number & probabilites), we deduce then the policy to apply (in a greedy way).
 - Policy update (We start from an arbitrary policy, we compute its weighted returns and we use it to update our policy).
+
+# Markov decision process (without knowledge about the transition matrix) :
+
+We want to learn how to play (a simplified) Blackjack - without insurance, with constant rewards & only one player.
+
+We will:
+- evaluate the performance of a given strategy
+- use the "on policy Monte Carlo" algorithm to get an optimal strategy
+
+Then we'll try to use our algorithms in another environment (Frozen lake)
